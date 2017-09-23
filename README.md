@@ -2,80 +2,80 @@
   <img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh">
 </p>
 
-Oh My Zsh is an open source, community-driven framework for managing your [zsh](http://www.zsh.org/) configuration.
+Oh My Zsh 是由社区驱动的一个开源的框架, 用于管理你的[zsh](http://www.zsh.org/) 配置.
 
-Sounds boring. Let's try again.
+听上去有点无聊. 让我们再来试一下.
 
-__Oh My Zsh will not make you a 10x developer...but you might feel like one.__
+__Oh My Zsh 虽然不能让你提升10倍的效率...但你或许会感觉像是那样.__
 
-Once installed, your terminal shell will become the talk of the town _or your money back!_ With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in cafés and ask you, _"that is amazing! are you some sort of genius?"_
+一旦安装完成, 你的终端shell将会成为小镇上的谈资 _或者让你的钱回来!_ 伴随着按键提示, 你将获得成百上千高级的给力的插件以及炫酷的主题. 甚至在咖啡馆的陌生人会找上你,并和你说, _"这太屌了!你是某种天才?"_
 
-Finally, you'll begin to get the sort of attention that you have always felt you deserved. ...or maybe you'll use the time that you're saving to start flossing more often.
+最后, 你将会得到某些你所期望的关注...或者你也可以使用你所节省的时间来更频繁的使用牙线(美国人的幽默?).
 
-To learn more, visit [ohmyz.sh](http://ohmyz.sh) and follow [@ohmyzsh](https://twitter.com/ohmyzsh) on Twitter.
+想知道更多? 看一下这个网站 [ohmyz.sh](http://ohmyz.sh) 并且在推特上关注 [@ohmyzsh](https://twitter.com/ohmyzsh) .
 
-## Getting Started
+## 让我们开始吧
 
-### Prerequisites
+### 准备工作
 
-__Disclaimer:__ _Oh My Zsh works best on macOS and Linux._
+__温馨提示:__ _Oh My Zsh 在苹果和Linux上工作的最好._
 
-* Unix-like operating system (macOS or Linux)
-* [Zsh](http://www.zsh.org) should be installed (v4.3.9 or more recent). If not pre-installed (`zsh --version` to confirm), check the following instruction here: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-* `curl` or `wget` should be installed
-* `git` should be installed
+* 类unix操作系统 (苹果或linux)
+* 需要先安装上 [Zsh](http://www.zsh.org)  (v4.3.9 or more recent). 如果没有预先安装 (可以用这条命令来确认一下`zsh --version` ), 那就看一下这里: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+* 也需要安装 `curl` 或 `wget` 
+* 还有 `git`
 
-### Basic Installation
+### 基本安装
 
-Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl` or `wget`.
+Oh My Zsh is 通过下面的命令来安装. 你可以选择用 `curl` 或者 `wget`来下载脚本,并执行安装.
 
-#### via curl
+#### 通过 curl
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-#### via wget
+#### 通过 wget
 
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
-## Using Oh My Zsh
+## 使用 Oh My Zsh
 
-### Plugins
+### 插件
 
-Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
+Oh My Zsh comes with a shit load of plugins to take advantage of. 你可以看一下 [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) 目录,或者 [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 来了解现在有那些可以用的东西.
 
-#### Enabling Plugins
+#### 启用 Plugins
 
-Once you spot a plugin (or several) that you'd like to use with Oh My Zsh, you'll need to enable them in the `.zshrc` file. You'll find the zshrc file in your `$HOME` directory. Open it with your favorite text editor and you'll see a spot to list all the plugins you want to load.
+Once you spot a plugin (or several) that you'd like to use with Oh My Zsh, 你需要在 `.zshrc` 文件中启用他们. 你可以在 `$HOME` 目录下找到它. 用你最爱的文本编辑器打开它,然后你会看到有一个地方列出了所有你想要加载的插件.
 
-For example, this line might begin to look like this:
+例如, 这一行最开始像这样:
 
 ```shell
 plugins=(git bundler osx rake ruby)
 ```
 
-#### Using Plugins
+#### 使用插件
 
-Most plugins (should! we're working on this) include a __README__, which documents how to use them.
+绝大多数的插件 (我们正在进行这项工作) 都包含一个 __README__, 你可以从这里了解如何使用它.
 
-### Themes
+### 主题
 
-We'll admit it. Early in the Oh My Zsh world, we may have gotten a bit too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://wiki.github.com/robbyrussell/oh-my-zsh/themes) on the wiki. Check them out!
+We'll admit it. 在早期的 Oh My Zsh 世界, we may have gotten a bit too theme happy. 我们现在有超过一百个主题, 它们绝大多数都有[截图](https://wiki.github.com/robbyrussell/oh-my-zsh/themes) 放在在wiki上. 快去看看吧!
 
-#### Selecting a Theme
+#### 选择一个主题
 
-_Robby's theme is the default one. It's not the fanciest one. It's not the simplest one. It's just the right one (for him)._
+_Robby 的主题是默认的. It's not the fanciest one. It's not the simplest one. 它只是最适合的一个 (对Robby来说)._
 
-Once you find a theme that you want to use, you will need to edit the `~/.zshrc` file. You'll see an environment variable (all caps) in there that looks like:
+一旦你找到你想用的主题, 你需要去编辑 `~/.zshrc` 文件. 你会看到一个环境变量 (所有字母都大写) 看上去像这样:
 
 ```shell
 ZSH_THEME="robbyrussell"
 ```
 
-To use a different theme, simply change the value to match the name of your desired theme. For example:
+如果要换成其他的主题, 只需要简单的将值修改为你像要的主题的名字. 例如:
 
 ```shell
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
@@ -87,9 +87,9 @@ Open up a new terminal window and your prompt should look something like this:
 
 ![Agnoster theme](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
-In case you did not find a suitable theme for your needs, please have a look at the wiki for [more of them](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes).
+以免你找不到你所需要的主题, 请看一下这个wiki[更多的主题](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes).
 
-If you're feeling feisty, you can let the computer select one randomly for you each time you open a new terminal window.
+如果你想尝鲜, 你可以让计算机随机的选择一个主题, 这样在你每次打开终端窗口都会有新的发现.
 
 
 ```shell
@@ -97,59 +97,58 @@ ZSH_THEME="random" # (...please let it be pie... please be some pie..)
 ```
 
 
-## Advanced Topics
+## 高级篇
 
 If you're the type that likes to get their hands dirty, these sections might resonate.
 
 ### Advanced Installation
 
-Some users may want to change the default path, or manually install Oh My Zsh.
+一些用户可能想修改默认的路径,或是手动安装 Oh My Zsh.
 
-#### Custom Directory
+#### 自定义路径
 
-The default location is `~/.oh-my-zsh` (hidden in your home directory)
+默认的位置是 `~/.oh-my-zsh` (隐藏在你的家目录, _通常按Ctrl+h可以在文件图形文件管理器中看到隐藏文件, 用`ls -a` 可以在终端看到--译者注_)
 
-If you'd like to change the install directory with the `ZSH` environment variable, either by running `export ZSH=/your/path` before installing, or by setting it before the end of the install pipeline like this:
+如果你想改变安装目录, 你可以修改环境变量 `ZSH` , 通过在执行安装命令前执行 `export ZSH=/your/path`, 或者通过下面这条命令来进行设置(请注意ZSH的值):
 
 ```shell
 export ZSH="$HOME/.dotfiles/oh-my-zsh"; sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-#### Manual Installation
+#### 手动安装
 
-##### 1. Clone the repository:
+##### 1. 克隆软件仓库:
 
 ```shell
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
-##### 2. *Optionally*, backup your existing `~/.zshrc` file:
+##### 2. *可选*, 备份你的 `~/.zshrc` 文件:
 
 ```shell
 cp ~/.zshrc ~/.zshrc.orig
 ```
 
-##### 3. Create a new zsh configuration file
+##### 3. 创建一个新的
 
-You can create a new zsh config file by copying the template that we have included for you.
-
+你可以通过复制我们预先给你准备好的文件来创建一个新的zsh配置文件.
 ```shell
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
-##### 4. Change your default shell
+##### 4. 修改默认shell
 
 ```shell
 chsh -s /bin/zsh
 ```
 
-##### 5. Initialize your new zsh configuration
+##### 5. 初始化你新的zsh配置
 
-Once you open up a new terminal window, it should load zsh with Oh My Zsh's configuration.
+一旦你打开一个终端窗口, 它应该会自动加载zsh的配置.
 
-### Installation Problems
+### 安装问题
 
-If you have any hiccups installing, here are a few common fixes.
+如果你在安装过程中出现了问题, 这里有几个通用的方法可以试一下.
 
 * You _might_ need to modify your `PATH` in `~/.zshrc` if you're not able to find some commands after switching to `oh-my-zsh`.
 * If you installed manually or changed the install location, check the `ZSH` environment variable in `~/.zshrc`.
