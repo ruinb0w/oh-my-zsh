@@ -10,7 +10,7 @@ __Oh My Zsh 虽然不能让你提升10倍的效率...但你或许会感觉像是
 
 一旦安装完成, 你的终端shell将会成为小镇上的谈资 _或者让你的钱回来!_ 伴随着按键提示, 你将获得成百上千高级的给力的插件以及炫酷的主题. 甚至在咖啡馆的陌生人会找上你,并和你说, _"这太屌了!你是某种天才?"_
 
-最后, 你将会得到某些你所期望的关注...或者你也可以使用你所节省的时间来更频繁的使用牙线(美国人的幽默?).
+最后, 你将会得到某些你所应得的关注...或者你也可以使用你所节省的时间来更频繁的使用牙线(美国人的幽默?).
 
 想知道更多? 看一下这个网站 [ohmyz.sh](http://ohmyz.sh) 并且在推特上关注 [@ohmyzsh](https://twitter.com/ohmyzsh) .
 
@@ -45,11 +45,10 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 ### 插件
 
-Oh My Zsh comes with a shit load of plugins to take advantage of. 你可以看一下 [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) 目录,或者 [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 来了解现在有那些可以用的东西.
+Oh My Zsh 通过加载各种插件来提供高级功能. 你可以看一下 [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) 目录,或者 [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 来了解现在有那些可以用的插件.
 
 #### 启用 Plugins
-
-Once you spot a plugin (or several) that you'd like to use with Oh My Zsh, 你需要在 `.zshrc` 文件中启用他们. 你可以在 `$HOME` 目录下找到它. 用你最爱的文本编辑器打开它,然后你会看到有一个地方列出了所有你想要加载的插件.
+一旦你找到一个想要的插件, 你需要在 `.zshrc` 文件中启用他们. 你可以在 `$HOME` 目录下找到`.zshrc`. 用你最爱的文本编辑器打开它,然后你会看到有一个地方列出了所有你想要加载的插件.
 
 例如, 这一行最开始像这样:
 
@@ -63,7 +62,7 @@ plugins=(git bundler osx rake ruby)
 
 ### 主题
 
-We'll admit it. 在早期的 Oh My Zsh 世界, we may have gotten a bit too theme happy. 我们现在有超过一百个主题, 它们绝大多数都有[截图](https://wiki.github.com/robbyrussell/oh-my-zsh/themes) 放在在wiki上. 快去看看吧!
+我们承认, 在早期的 Oh My Zsh 世界, 我们在主题上获得了很大的乐趣. 我们现在有超过一百个主题, 它们绝大多数都有[截图](https://wiki.github.com/robbyrussell/oh-my-zsh/themes) 放在在wiki上. 快去看看吧!
 
 #### 选择一个主题
 
@@ -82,15 +81,13 @@ ZSH_THEME="agnoster" # (this is one of the fancy ones)
 # you might need to install a special Powerline font on your console's host for this to work
 # see https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#agnoster
 ```
-
-Open up a new terminal window and your prompt should look something like this:
+打开一个新的终端窗口, 你的界面就会类似变成这样:
 
 ![Agnoster theme](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
 以免你找不到你所需要的主题, 请看一下这个wiki[更多的主题](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes).
 
 如果你想尝鲜, 你可以让计算机随机的选择一个主题, 这样在你每次打开终端窗口都会有新的发现.
-
 
 ```shell
 ZSH_THEME="random" # (...please let it be pie... please be some pie..)
@@ -150,11 +147,11 @@ chsh -s /bin/zsh
 
 如果你在安装过程中出现了问题, 这里有几个通用的方法可以试一下.
 
-* You _might_ need to modify your `PATH` in `~/.zshrc` if you're not able to find some commands after switching to `oh-my-zsh`.
-* If you installed manually or changed the install location, check the `ZSH` environment variable in `~/.zshrc`.
+* 如果你无法找到在使用oh-my-zsh之前使用的命令, 你 _或许_ 需要去修改 `~/.zshrc` 文件中 的`PATH` 环境变量.
+* 如果你手动安装或者修改了安装位置, 检查一下`~/.zshrc` 文件中的 `ZSH`环境变量.
+### 自定义插件和属性
 
-### Custom Plugins and Themes
-
+如果你想覆盖任何默认行为, 只需要添加新的文件
 If you want to override any of the default behaviors, just add a new file (ending in `.zsh`) in the `custom/` directory.
 
 If you have many functions that go well together, you can put them as a `XYZ.plugin.zsh` file in the `custom/plugins/` directory and then enable this plugin.
@@ -227,3 +224,6 @@ Oh My Zsh is released under the [MIT license](LICENSE.txt).
 ![Planet Argon](http://pa-github-assets.s3.amazonaws.com/PARGON_logo_digital_COL-small.jpg)
 
 Oh My Zsh was started by the team at [Planet Argon](https://www.planetargon.com/?utm_source=github), a [Ruby on Rails development agency](https://www.planetargon.com/skills/ruby-on-rails-development?utm_source=github).
+
+## 翻译
+中文翻译由四级都没过的空耳大师ruinb0w完成
